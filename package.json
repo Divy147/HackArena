@@ -1,0 +1,45 @@
+{
+  "name": "hackarena",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HackArena - AI-Powered Cybersecurity Learning Platform",
+  "author": "Ethical Hacker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/hackarena.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start:backend": "npm --prefix backend start",
+    "dev:backend": "npm --prefix backend run dev"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.9",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "firebase": "^11.4.0",
+    "lightningcss-win32-x64-msvc": "^1.29.2",
+    "lucide-react": "^0.479.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "^4.0.9"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@rolldown/binding-win32-x64-msvc": "^1.0.0-beta.10",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "vite": "^6.2.0"
+  }
+}
