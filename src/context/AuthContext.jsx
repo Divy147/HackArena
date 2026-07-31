@@ -79,7 +79,7 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const signup = async (email, password, displayName) => {
-  const res = await fetch('/api/auth/signup', {
+  const res = await fetch('https://hackarena-bbmi.onrender.com/api/auth/signup', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -110,7 +110,7 @@ export const AuthProvider = ({ children }) => {
 };
 
  const login = async (email, password) => {
-  const res = await fetch('/api/auth/login', {
+  const res = await fetch('https://hackarena-bbmi.onrender.com/api/auth/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
